@@ -17,6 +17,15 @@ header{
     text-shadow: 2px 2px 2px black;
 }
 
+input{
+    border-radius: 10px;
+    background-color: rgb(75, 74, 74);
+    color: white;
+    border: none;
+    padding: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
+}
+
 header#easteregg{
     background-image: linear-gradient(to right, lightgray, darkgray, gray, black);
     text-align: center;
@@ -43,6 +52,11 @@ a{
 }
 
 p{
+    color: white;
+    text-align: center;
+}
+
+p#p{
     color: white;
     text-align: center;
 }
